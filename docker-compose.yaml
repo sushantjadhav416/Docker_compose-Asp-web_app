@@ -1,4 +1,4 @@
-version: "3"
+version: "3.4"
 services:
   web:
     #container_name: web-app
@@ -8,7 +8,7 @@ services:
     ports:
       - "8000"
     environment:
-      ConnectionStrings__ProductsContext: "Server=db;Database=ProductsContext;User=sa;Password=@Aa123456;"
+      ConnectionStrings__ProductsContext: "Server=db;Database=ProductsDB;User=sa;Password=@Aa123456;Trusted_Connection=False;TrustServerCertificate=True;"
       ASPNETCORE_ENVIRONMENT: "Development"
     depends_on:
       - db

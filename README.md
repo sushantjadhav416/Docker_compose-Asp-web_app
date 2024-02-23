@@ -19,7 +19,6 @@
 - We are using nginx web servers as loadbalancer for scaling of our application.
 - For this task we have to setup a nginx.conf file.
 - After compliting the setup follow below command
-- 
-       **docker-compose scale web=5**
+          **docker-compose scale web=5**
 - Here web is name off a service and 5 number of containers to be scaled.
 - Here the Nginx act as proxy server to allow our application to scale.

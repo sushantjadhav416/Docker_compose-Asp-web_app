@@ -7,7 +7,7 @@
    1. Have Multiple isolated environment on a single host .
    2. Preserve volume data when container are created .
    3. Only recreate's the container that have changed .
-   4. Supports variables and moving a composition beetween environments.
+   4. Supports variables and moving a composition between environments.
       
 ### Project setup-
 -  First , clone this repository to your system.
